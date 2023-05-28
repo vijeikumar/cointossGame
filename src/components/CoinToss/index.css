@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.toss-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 42px;
+  margin-bottom: 60px;
+  border-radius: 12px;
+  width: 40%;
+}
+.head {
+  font-size: 44px;
+  color: #e2a139;
+}
+.para {
+  font-size: 22px;
+  color: #334155;
+  font-weight: 500;
+}
+.toss-img {
+  width: 40%;
+}
+.button {
+  background-color: #e2a139;
+  color: #a35200;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+}
+.total {
+  display: flex;
+}
+.total-score {
+  margin-right: 24px;
+}
+.heads-score {
+  margin-right: 24px;
+}
+.tails {
+  margin-right: 24px;
+}
